@@ -1,0 +1,108 @@
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================================================================
+# Environment Variables & Secrets
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ==============================================================================
+# Machine Learning Models, Weights & Serialized Artifacts
+# ==============================================================================
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.tflite
+*.pb
+ml/models/*
+!ml/models/.gitkeep
+
+# ==============================================================================
+# Datasets & Large Data Files (Raw / Processed / Parquet / CSV / JSON dumps)
+# ==============================================================================
+*.parquet
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+
+# Data directories
+data/*
+!data/.gitkeep
+raw_data/
+processed_data/
+
+# GeoProviderService large files & standalone HTML visual dumps
+GeoProviderService/*.csv
+GeoProviderService/*.parquet
+GeoProviderService/*.html
+
+# ==============================================================================
+# Logs, Temp Files & Caches
+# ==============================================================================
+*.log
+logs/
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.streamlit/secrets.toml
+
+# ==============================================================================
+# Operating System & Editor Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
